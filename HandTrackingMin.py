@@ -5,7 +5,7 @@ cam = cv2.VideoCapture(0)
 
 mpHands = mp.solutions.hands
 ## static_image_mode if False will track only when the confidence falls.
-## True is for continuour tracking but this slows down the processing.
+## True is for continuous tracking but this slows down the processing.
 hands = mpHands.Hands()  # Using default values of the Hands class
 mpDraw = mp.solutions.drawing_utils
 
